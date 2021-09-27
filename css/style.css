@@ -1,0 +1,211 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Roboto:wght@400;700;900&display=swap&subset=cyrillic-ext");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  /* padding: 20px; */
+  /*  */
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* =================================================== */
+/* header */
+.header {
+  max-width: 1020px;
+  margin: 0 auto 150px;
+}
+.container {
+  padding: 100px 87px;
+  background-color: #fff;
+  min-height: 700px;
+  box-shadow: 1px 1px 10px #000, -1px -1px 10px #000;
+}
+.header-icon {
+  margin-right: 16px;
+}
+.header-uptitle {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 33px;
+  text-transform: uppercase;
+}
+.header-title {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 42px;
+  max-width: 583px;
+  margin-bottom: 36px;
+}
+.header-text {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 54px;
+}
+.header-image {
+  width: 100%;
+  max-width: 846px;
+  min-height: 420px;
+  margin: -300px 0 0 87px;
+  box-shadow: 2px 2px 20px #000, -2px -2px 20px #000;
+}
+
+/* main */
+.main {
+  max-width: 1020px;
+  margin: 0 auto 150px;
+}
+.main-card {
+  text-align: center;
+  max-width: 324px;
+  min-height: 340px;
+  padding: 50px 43px;
+  background-color: #fff;
+  margin: 0 auto 24px;
+  box-shadow: 2px 2px 5px #000;
+}
+.main-icon {
+  display: block;
+  margin: 0 auto;
+  width: 63px;
+  height: 63px;
+  margin-bottom: 33px;
+}
+.main-title {
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 900;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.main-text {
+  display: inline-block;
+  line-height: 24px;
+}
+
+/* footer */
+.footer {
+  font-family: "Poppins", sans-serif;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+.footer-title {
+  display: block;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 26px;
+}
+.footer-subtitle {
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 60px;
+}
+.footer-info {
+  max-width: 1040px;
+  padding: 36px 10px;
+  margin-bottom: 100px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #000, -2px -2px 5px;
+}
+.info-title {
+  display: block;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.info-text {
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.latin {
+  margin: 0 0 18px 18px;
+}
+.latin li {
+  list-style: lower-latin;
+  font-weight: 300;
+  line-height: 26px;
+}
+p span {
+  display: block;
+  text-align: justify;
+}
+
+/* footer-card */
+.footer-card {
+  text-align: left;
+  max-width: 534px;
+  min-height: 500px;
+  padding: 50px;
+  background-color: #fff;
+  margin: 0 auto;
+  box-shadow: 2px 2px 5px #000, -2px -2px 5px;
+}
+.card-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 9px;
+}
+.card-title {
+  display: block;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 58px;
+  margin-bottom: 25px;
+}
+.card-text {
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+}
