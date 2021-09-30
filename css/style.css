@@ -56,7 +56,7 @@ body {
 /* header */
 .header {
   max-width: 1020px;
-  margin: 0 auto 150px;
+  margin: 0 auto;
 }
 .container {
   padding: 100px 87px;
@@ -93,7 +93,7 @@ body {
   width: 100%;
   max-width: 846px;
   min-height: 420px;
-  margin: -300px 0 0 87px;
+  margin: -300px 0 150px 87px;
   box-shadow: 2px 2px 20px #000, -2px -2px 20px #000;
 }
 
@@ -209,3 +209,51 @@ p span {
   font-weight: 300;
   line-height: 26px;
 }
+/* основная ось вертикальная */
+justify-content: flex-start;
+justify-content: center;
+justify-content: flex-end;
+justify-content: space-between;
+justify-content: space-around;
+
+/* поперечная ось горизонтальная */
+align-items: flex-start;
+align-items: center;
+align-items: flex-end;
+align-items: baseline; /* Элементы отображаются на базовой линии контейнера. */
+align-items: stretch; /* по умолчанию Элементы растягиваются, чтоб заполнить контейнер. */
+
+/* управление осями */
+flex-direction: column;
+flex-direction: column-reverse;
+flex-direction: row;
+flex-direction: row-reverse;
+
+/* управление положением отдельных элементов */
+order: 0; /*  по умолчанию, применяется с justify-content  */
+order: 1; /*  сдвиг вправо  */
+order: -1; /*  сдвиг влево  */
+
+/* поперечная ось, управление положением отдельных элементов */
+align-self: flex-start; /* выровнять элемент в начале поперечной оси контейнера*/
+align-self: center; /* выровнять элемент в центре поперечной оси*/
+align-self: flex-end; /* выровнять элемент в конце поперечной оси*/
+align-self: baseline;
+align-self: stretch;
+
+/*  */
+flex-wrap: nowrap; /* по умолчанию */
+flex-wrap: wrap;
+flex-wrap: wrap-reverse;
+
+/* использование комбинаций flex-direction и flex-wrap */
+flex-flow: row wrap;
+flex-flow: column wrap;
+
+/* управление рядами Это может запутать, но align-content отвечает за расстояние между рядами, в то время как align-items отвечает за то, как элементы в целом будут выровнены в контейнере. Когда только один ряд, align-content ни на что не влияет. */
+align-content: flex-start;
+align-content: center;
+align-content: flex-end;
+align-content: space-between;
+align-content: space-around;
+align-content: stretch;
